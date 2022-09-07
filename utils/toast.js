@@ -24,6 +24,12 @@ class msg {
       duration
     })
   }
+  loading() {
+    uni.showToast({
+      title: '正在加载中...',
+      icon: 'loading'
+    })
+  }
 }
 
 const message = new msg()
